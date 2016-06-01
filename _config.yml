@@ -11,7 +11,7 @@ author:
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 's3_website.yml']
 
 include: ['.htaccess']
 
@@ -35,3 +35,27 @@ markdown: kramdown
 #     coderay_css: style
 
 highlighter: rouge
+
+permalink: pretty
+
+collections:
+  loosies:
+    output: true
+  cases:
+    output: true
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      type: loosie
+    values:
+      layout: post
+  - scope:
+      type: cases
+    values:
+      layout: post
+  - scope:
+      type: doc
+    values:
+      layout: about
