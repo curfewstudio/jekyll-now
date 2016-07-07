@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Yo Jekyll!"
+title:  "Test Post 2"
 categories: jekyll update
 ---
 
