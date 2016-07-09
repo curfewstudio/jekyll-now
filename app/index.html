@@ -4,20 +4,12 @@ layout: default
 
 <div class="home">
 
-  <ul class="nav">
-    <li>
-      <a href="#">Work</a>
-    </li>
-    <li>
-      <a href="{{ site.docs.about.url }}">About</a>
-    </li>
-  </ul>
-
   <ul class="post-list">
-    {% for doc in site.docs %}
+    {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
+    {% for work in featured-work %}
     <li>
       <h2>
-        <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a>
+        <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
       </h2>
     </li>
     {% endfor %}

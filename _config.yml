@@ -41,21 +41,21 @@ permalink: pretty
 collections:
   loosies:
     output: true
-  cases:
+  work:
     output: true
   docs:
     output: true
 
 defaults:
   - scope:
-      type: loosie
+      type: loosies
     values:
       layout: post
   - scope:
-      type: cases
+      type: work
     values:
       layout: post
   - scope:
-      type: doc
+      type: docs
     values:
       layout: about
