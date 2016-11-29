@@ -4,7 +4,6 @@ layout: post
 tags: case
 featured: true
 featured-priority: 2
-published: true
 ---
 
 # Sample Case Study
