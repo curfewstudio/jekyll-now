@@ -1,61 +1,60 @@
-# Jekyll configuration precedence:
-# 1. Gruntfile task
-# 2. config.build.yml
-# 3. config.yml
-
+---
+title: Curfewstudio.Github.Io
+timezone: UTC
+collections:
+  docs:
+    title: Docs
+    output: true
+  loosies:
+    title: Loosies
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: loosies
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: docs
+  values:
+    layout: about
 name: curfewstudio.github.io
 description: A Harlem Design Studio
 author:
   name: Curfew Studio
   email: yo@curfew.nyc
-
-# Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 's3_website.yml']
-
-include: ['.htaccess']
-
-# _config.build.yml sets future and show_drafts to false on `grunt build`
+exclude:
+- img
+- css
+- js
+- fonts
+- "**.png"
+- "**.jpg"
+- "**.jpeg"
+- "**.gif"
+- "**.webp"
+- "**.svg"
+- "**.ico"
+- s3_website.yml
+include:
+- ".htaccess"
 future: true
 show_drafts: true
-
-# Markdown library
 markdown: kramdown
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
-#   coderay:
-#     coderay_wrap: div
-#     coderay_line_numbers: inline
-#     coderay_line_numbers_start: 1
-#     coderay_tab_width: 4
-#     coderay_bold_every: 10
-#     coderay_css: style
-
 highlighter: rouge
-
 permalink: pretty
-
-collections:
-  loosies:
-    output: true
-  work:
-    output: true
-  docs:
-    output: true
-
-defaults:
-  - scope:
-      type: loosies
-    values:
-      layout: post
-  - scope:
-      type: work
-    values:
-      layout: post
-  - scope:
-      type: docs
-    values:
-      layout: about

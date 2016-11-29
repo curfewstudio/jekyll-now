@@ -1,7 +1,11 @@
 ---
+title: Test Post 2
+date: 2016-05-30 00:00:00 Z
+categories:
+- app
+- jekyll
+- update
 layout: post
-title:  "Test Post 2"
-categories: jekyll update
 ---
 
 # 'Allo, 'Allo!
