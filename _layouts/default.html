@@ -10,10 +10,11 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{base.url}}/css/main.css">
         <!-- endbuild -->
-
+        {% include analytics/google-tags-head.html %}
+        {% include analytics/google-analytics.html %}
     </head>
     <body>
-
+        {% include analytics/google-tags-body.html %}
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="{{ site.baseurl }}">Curfew Studio</a></h1>
