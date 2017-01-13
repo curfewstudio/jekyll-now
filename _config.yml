@@ -1,6 +1,6 @@
 ---
 title: Curfew Studio
-timezone: UTC
+timezone: America/New_York
 collections:
   docs:
     title: Docs
@@ -33,8 +33,8 @@ defaults:
     type: docs
   values:
     layout: about
-name: curfewstudio.github.io
-description: A Harlem Design Studio
+name: Curfew Studio
+description: The Harlem design studio of Drew Albinson.
 author:
   name: Curfew Studio
   email: yo@curfew.nyc
