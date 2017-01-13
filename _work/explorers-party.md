@@ -1,7 +1,8 @@
 ---
 title: Explorers' Party
+tags:
+- case
 layout: post
-tags: case
 featured: true
 featured-priority: 2
 ---

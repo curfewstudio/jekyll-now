@@ -1,7 +1,8 @@
 ---
 title: Legacy Memento
+tags:
+- case
 layout: post
-tags: case
 featured: true
 featured-priority: 1
 ---
