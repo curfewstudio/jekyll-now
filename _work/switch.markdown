@@ -1,5 +1,5 @@
 ---
-title: Switch Advertisements
+title: Switch
 tags:
 - case
 featured: true
