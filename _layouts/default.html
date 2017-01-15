@@ -8,7 +8,7 @@
 
         <!-- build:css({app,.tmp}) /css/main.css -->
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{site.base.url}}/css/main.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
         <!-- endbuild -->
         {% include analytics/google-tags-head.html %}
         {% include analytics/google-analytics.html %}
@@ -18,7 +18,7 @@
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="{{ site.baseurl }}">Curfew Studio</a></h1>
-            {% include nav.html %}
+            {% include /global/nav.html %}
           </div>
 
           {{ content }}

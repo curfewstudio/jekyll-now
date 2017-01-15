@@ -1,4 +1,3 @@
----
 title: Curfew Studio
 timezone: America/New_York
 collections:
@@ -45,25 +44,6 @@ show_drafts: true
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-<<<<<<< HEAD
-
-collections:
-  work:
-    output: true
-  docs:
-    output: true
-
-defaults:
-  - scope:
-      type: work
-    values:
-      layout: default
-  - scope:
-      type: docs
-    values:
-      layout: default
-=======
 sass:
   sass-dir: _sass
   style: compressed
->>>>>>> 8c91d08544c022b2305d451edca5cf9ee3d83680

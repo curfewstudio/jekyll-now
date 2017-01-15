@@ -14,7 +14,7 @@ layout: default
         </li>
         {% endfor %}
     </ul>
-    
+
     <ul class="post-list">
         {% assign pub-loosies = site.loosies | where: "published", true | sort: 'featured-priority' %}
         {% for work in pub-loosies %}
