@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Drew Albinson
 
 ### Work Experience
@@ -90,7 +94,7 @@ Completed JavaScript and jQuery Courses
 - Grunt / Gulp
 - Slack
 - Some Ruby
-- Terminal / Shell 
+- Terminal / Shell
 
 #### Workplace Facets
 

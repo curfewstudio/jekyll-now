@@ -39,8 +39,6 @@ highlighter: rouge
 permalink: pretty
 
 collections:
-  loosies:
-    output: true
   work:
     output: true
   docs:
@@ -48,14 +46,10 @@ collections:
 
 defaults:
   - scope:
-      type: loosies
-    values:
-      layout: post
-  - scope:
       type: work
     values:
-      layout: post
+      layout: default
   - scope:
       type: docs
     values:
-      layout: about
+      layout: default

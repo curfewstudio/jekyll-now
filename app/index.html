@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-
+<h1>Recent work:</h1>
   <ul class="post-list">
     {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
     {% for work in featured-work %}
@@ -14,5 +14,7 @@ layout: default
     </li>
     {% endfor %}
   </ul>
+
+  <a class="btn" href="{{site.basurl}}/work">More work &rarr;</button>
 
 </div>

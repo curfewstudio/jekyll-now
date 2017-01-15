@@ -5,7 +5,8 @@ layout: default
 <div class="home">
 
     <ul class="post-list">
-        {% for work in work %}
+        {% assign all-work = site.work | sort: 'featured-priority' %}
+        {% for work in all-work %}
         <li>
             <h2>
                 <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
