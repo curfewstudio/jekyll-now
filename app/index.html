@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
+    {% for work in featured-work %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>
