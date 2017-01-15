@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2017-01-14 21:46:00 -05:00
+layout: default
 ---
 
 #About Curfew Studio
