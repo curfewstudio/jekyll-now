@@ -46,5 +46,5 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 sass:
-    sass-dir: _sass
-    style: compressed
+  sass-dir: _sass
+  style: compressed
