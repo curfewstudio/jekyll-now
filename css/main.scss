@@ -45,9 +45,10 @@ body {
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "base",
-    "layout"
+    "base/base",
+    "base/colors",
+    "base/reset",
+    "base/typography"
     ;

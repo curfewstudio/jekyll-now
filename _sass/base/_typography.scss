@@ -1,0 +1,25 @@
+// Import Modular Scale
+@import
+    "vendors/modular-scale"
+    ;
+
+// Google Fonts
+@import
+    url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:400,700')
+    ;
+
+// Font Variables
+$montserrat: 'Montserrat',Helvetica Neue,Helvetica,Arial,sans-serif;
+$merriweather: 'Merriweather',Georgia,Times,Times New Roman,serif;
+
+// Font Weights
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+// Modular Scale
+$ms-base: 1em;
+$ms-ratio: $golden;
+
+// Base Styles
+$base-font-weight: $ms-base;
+$base-font-family: $montserrat;
