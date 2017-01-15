@@ -38,19 +38,6 @@ description: The Harlem design studio of Drew Albinson.
 author:
   name: Curfew Studio
   email: yo@curfew.nyc
-exclude:
-- img
-- css
-- js
-- fonts
-- "**.png"
-- "**.jpg"
-- "**.jpeg"
-- "**.gif"
-- "**.webp"
-- "**.svg"
-- "**.ico"
-- s3_website.yml
 include:
 - ".htaccess"
 future: true
@@ -58,3 +45,6 @@ show_drafts: true
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+sass:
+    sass-dir: _sass
+    style: compressed
