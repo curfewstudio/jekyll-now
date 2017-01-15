@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <ul class="post-list">
+        {% assign pub-work = site.work | where: "published", true | sort: 'featured-priority' %}
+        {% for work in pub-work %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+    
+    <ul class="post-list">
+        {% assign pub-loosies = site.loosies | where: "published", true | sort: 'featured-priority' %}
+        {% for work in pub-loosies %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ loosies.url | prepend: site.baseurl }}">{{ loosies.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>

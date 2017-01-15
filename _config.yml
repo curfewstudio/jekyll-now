@@ -1,0 +1,50 @@
+---
+title: Curfew Studio
+timezone: America/New_York
+collections:
+  docs:
+    title: Docs
+    output: true
+  loosies:
+    title: Loosies
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: loosies
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: docs
+  values:
+    layout: about
+name: Curfew Studio
+description: The Harlem design studio of Drew Albinson.
+author:
+  name: Curfew Studio
+  email: yo@curfew.nyc
+include:
+- ".htaccess"
+future: true
+show_drafts: true
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+sass:
+  sass-dir: _sass
+  style: compressed
