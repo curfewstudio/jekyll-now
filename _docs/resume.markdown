@@ -1,6 +1,8 @@
 ---
 title: Resume
 date: 2017-01-15 16:56:00 -05:00
+categories:
+- about
 ---
 
 # Drew Albinson
