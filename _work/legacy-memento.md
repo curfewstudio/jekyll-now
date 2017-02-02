@@ -2,20 +2,20 @@
 title: Legacy Memento
 tags:
 - case
-layout: post
 featured: true
 featured-priority: 1
+layout: post
 ---
 
 # Sample Case Study
 
-Background/Brief: The Explorers' party is a family fundraiser for the Wildlife Conservation Society. The theme for 2016 was "Wild About Oceans" which was manifested through education activities at the event and messaging around marine conservation. The event and its communications needed to appeal to kids and parents alike.
+Background: At the Wildlife Conservation Society, we needed a way to thank families of donors who had left the organization in their will. A legacy wall had been erected to honor these donors at the Bronx Zoo. I used a watercolor screen printing process to create unique prints for each donor of matching birds.
 
 [image]
-Unique and fun illustrations were created to fit the theme and were used on web and print materials.
+Process video of printing (in my kitchen)
 
 [image]
-We designed a print save-the-date and an invitation as well as corresponding e-mails.
+Final results
 
 [image]
-The event was a big hit and we're happy our little creatures could be a part of it.
+Donor names were added via wintergreen oil transfer.
