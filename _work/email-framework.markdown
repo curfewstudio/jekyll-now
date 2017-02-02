@@ -5,6 +5,7 @@ categories:
 - development
 tags:
 - case
+position: 4
 featured: true
 featured-priority: 4
 ---
