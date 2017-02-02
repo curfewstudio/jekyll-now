@@ -2,7 +2,7 @@
 title: Legacy Memento
 tags:
 - case
-position: 4
+position: 5
 featured: true
 featured-priority: 1
 layout: post
