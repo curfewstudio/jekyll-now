@@ -2,7 +2,7 @@
 title: Explorers' Party
 tags:
 - case
-position: 2
+position: 3
 layout: post
 featured: true
 featured-priority: 2
