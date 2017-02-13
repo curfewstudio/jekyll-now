@@ -1,17 +1,5 @@
 ---
-title: Explorers' Party
-tags:
-- case
-<<<<<<< HEAD
-layout: project
-=======
-position: 3
-layout: post
->>>>>>> c0efb9d7dcad663fccbfd3d0dc9249eec4de1d67
-featured: true
-featured-priority: 2
-featured-image: 'http://placehold.it/800x400'
-hero: 'http://placehold.it/1200x600'
+title: Explorers Party
 ---
 
 # Sample Case Study

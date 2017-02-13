@@ -1,7 +1,7 @@
 ---
 title: About
-layout: default
 permalink: about.html
+layout: default
 ---
 
 #About Curfew Studio

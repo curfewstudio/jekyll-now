@@ -1,18 +1,5 @@
 ---
 title: Legacy Memento
-tags:
-- case
-<<<<<<< HEAD
-layout: post
-featured: false
-featured-priority: 1
-featured-image: 'http://placehold.it/800x400'
-=======
-position: 6
-featured: true
-featured-priority: 1
-layout: post
->>>>>>> c0efb9d7dcad663fccbfd3d0dc9249eec4de1d67
 ---
 
 # Sample Case Study
