@@ -3,8 +3,9 @@ title: Legacy Memento
 tags:
 - case
 layout: post
-featured: true
+featured: false
 featured-priority: 1
+featured-image: 'http://placehold.it/800x400'
 ---
 
 # Sample Case Study

@@ -22,22 +22,22 @@ defaults:
     path: ''
     type: loosies
   values:
-    layout: post
+    layout: project
 - scope:
     path: ''
     type: work
   values:
-    layout: post
+    layout: project
 - scope:
     path: ''
     type: docs
   values:
     layout: about
 name: Curfew Studio
-description: The Harlem design studio of Drew Albinson.
+description: The design studio of Drew Albinson.
 author:
   name: Curfew Studio
-  email: yo@curfew.nyc
+  email: yo@curfewstudio.com
 include:
 - ".htaccess"
 future: true

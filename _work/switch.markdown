@@ -4,6 +4,7 @@ tags:
 - case
 featured: true
 featured-priority: 3
+featured-image: 'http://placehold.it/300x400'
 summary: 
 ---
 

@@ -3,18 +3,44 @@ layout: default
 ---
 
 <div class="home">
-<h1>Recent work:</h1>
-  <ul class="post-list">
+ <!-- Work Listing Start -->
+  <div class="work-listing">
     {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
     {% for work in featured-work %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
-      </h2>
-    </li>
+     <div class="work-item">
+      <a href="{{ work.url }}">
+        <img src="{{ work.featured-image }}">
+      </a>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
+  <!-- End Work Listing -->
+  
+  <!-- Case Study Start -->
+  <div class="case-studies">
+    {% assign case-study = site.work | where: "featured-case", true %}
+    {% for work in case-study %}
+    <div class="case-study-item">
+      <a href="{{ work.url }}">
+        <img src="{{ work.featured-image }}">
+      </a>
+      <div>
+        <h3>{{work.title}}</h3>
+        <p>
+          {{work.case-summary}}
+        </p>
+        <a href="{{ work.url }}">Read More</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- End Case Study -->
 
-  <a class="btn" href="{{site.basurl}}/work">More work &rarr;</button>
+  <!-- More Work Button -->
+  <a class="btn" href="{{site.basurl}}/work">More work &rarr;</a>
+  <!-- End More Work Button -->
+  
+  {% include global/contact-form.html %}
 
 </div>
+ 

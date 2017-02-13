@@ -1,0 +1,32 @@
+.nav-wrapper {
+}
+
+.nav-logo {
+    max-width: 80%;
+    padding-top: ms(2);
+    width: ms(2, 10em);
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    @include flexbox;
+    @include justify-content(center);
+    .nav-item {
+        padding: $ms-base;
+        font-family: $montserrat;
+        text-decoration: none;
+        color: $blue;
+        text-transform: uppercase;
+    }
+}
+
+.nav-item {
+    a, a:visited { 
+        color: $mint;
+        &:hover, &:focus {
+            color: $blue;
+            text-decoration: none;
+        }
+    }
+}

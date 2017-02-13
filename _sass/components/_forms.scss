@@ -1,0 +1,23 @@
+// Global styles
+
+input {
+    font-family: $base-font-family;
+}
+
+
+// Contact form
+
+.contact-wrapper {
+    width: 100%;
+    
+    input[type=text], input[type=email] {
+        padding: ms(1, .5em);
+    }
+    input[type=submit]{
+        color: $moon;
+        background-color: $mint;
+        padding: $ms-base;
+        border: none;
+        border-radius: $ms-base;
+    }
+}
