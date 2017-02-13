@@ -1,11 +1,21 @@
 ---
-title: Switch
+title: Switch App Modal
 tags:
 - case
+position: 1
 featured: true
 featured-priority: 3
 featured-image: 'http://placehold.it/300x400'
 summary: 
 ---
 
-In 2016 I was contracted by Switch—a job search app—to create a series of illustrations for an Instagram carousel ad targeting Product Managers. All three illustrations are attached along with some early sketches.
+I was contracted by Switch—a job search app—to design an in-app modal screen which would drive users to interact with employers they have matched with. Both full-size concepts are attached.
+
+[image]
+The first concept for matching with an employer.
+
+[image]
+The second concept.
+
+[image]
+Early sketches of the modal.
