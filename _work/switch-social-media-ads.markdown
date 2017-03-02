@@ -1,7 +1,7 @@
 ---
 title: Switch Social Media Ads
 date: 2017-02-07 13:20:00 -05:00
-position: 10
+position: 5
 featured-image: "/images/work/switch-ads/design-job.png"
 ---
 
