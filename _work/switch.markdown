@@ -5,7 +5,7 @@ tags:
 position: 9
 featured: true
 featured-priority: 3
-featured-image: http://placehold.it/300x400
+featured-image: "/images/work/switch-modal/modal-1.png"
 summary: 
 ---
 
