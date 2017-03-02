@@ -1,6 +1,6 @@
 ---
 title: Explorers Party
-position: 1
+position: 2
 featured-image: "/images/work/explorers-party/explorersdribbb.png"
 featured: true
 ---

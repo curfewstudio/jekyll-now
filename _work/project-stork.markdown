@@ -5,7 +5,7 @@ categories:
 - development
 tags:
 - case
-position: 2
+position: 3
 featured: true
 featured-priority: 4
 featured-image: "/images/work/project-stork/ui-icons.png"

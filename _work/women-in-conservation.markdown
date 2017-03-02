@@ -1,6 +1,6 @@
 ---
 title: Women In Conservation
-position: 5
+position: 6
 featured-image: "/images/work/women-in-conservation/slotw-dribbble.png"
 ---
 
