@@ -1,7 +1,7 @@
 ---
 title: Switch Social Media Ads
 date: 2017-02-07 13:20:00 -05:00
-position: 4
+position: 11
 ---
 
 I was contracted by Switch—a job search app—to create a series of illustrations for social media advertisements. 

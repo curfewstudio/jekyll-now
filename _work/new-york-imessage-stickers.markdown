@@ -1,5 +1,6 @@
 ---
 title: New York Imessage Stickers
+position: 0
 featured-image: "/images/work/ny-sticky/dribbble-gif.gif"
 featured: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: Executive Update
 date: 2017-02-08 13:59:00 -05:00
+position: 6
 ---
 
 At WCS I worked with my team to create a new quarterly update for our board and council members. This Executive Update included news, updates from field staff, and giving opportunities. 

@@ -2,7 +2,7 @@
 title: Switch App Modal
 tags:
 - case
-position: 1
+position: 9
 featured: true
 featured-priority: 3
 featured-image: http://placehold.it/300x400
