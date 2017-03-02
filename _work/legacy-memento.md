@@ -1,6 +1,6 @@
 ---
 title: Legacy Memento
-position: 3
+position: 4
 ---
 
 # Sample Case Study
