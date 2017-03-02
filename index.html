@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<div class="home">
+<div class="index-wrapper">
  <!-- Work Listing Start -->
-  <div class="work-listing">
+  <div class="work-listing dw">
     {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
     {% for work in featured-work %}
-     <div class="work-item">
-      <a href="{{ work.url }}">
-        <img src="{{ work.featured-image }}">
-      </a>
+     <div class="work-item dw-panel">
+       <div class="work-item-content dw-panel__content">
+        <a href="{{ work.url }}">
+          <img src="{{ work.featured-image }}">
+        </a>
+       </div>
     </div>
     {% endfor %}
   </div>
@@ -20,11 +22,13 @@ layout: default
   <div class="case-studies">
     {% assign case-study = site.work | where: "featured-case", true %}
     {% for work in case-study %}
-    <div class="case-study-item">
-      <a href="{{ work.url }}">
-        <img src="{{ work.featured-image }}">
-      </a>
-      <div>
+    <div class="case-study-item dw">
+      <div class="dw-panel">
+        <a href="{{ work.url }}">
+          <img src="{{ work.featured-image }}">
+        </a>
+      </div>
+      <div class="case-study-text dw-panel">
         <h3>{{work.title}}</h3>
         <p>
           {{work.case-summary}}

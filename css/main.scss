@@ -6,9 +6,10 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base/reset",
+    "helpers/flex",
+    "layout/flex-tests",
     "base/colors",
     "base/typography",
-    "helpers/flex",
     "components/work-listing",
     "components/buttons",
     "components/footer",

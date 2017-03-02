@@ -1,5 +1,12 @@
 // Custom CSS for each project
 
+.project-hero { 
+    img {
+        max-width: 1200px;
+        height: auto;
+    }
+}
 .project {
-    width: 800px;
+    max-width: 1000px;
+    width: 90%;
 }

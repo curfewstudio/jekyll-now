@@ -1,1 +1,21 @@
 // Custom CSS for the index page
+
+/* Old index code, reuse later if needed
+.case-studies {
+    @include flexbox;
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include align-items(center);
+    @include justify-content(center);
+    @include flex-flow (row wrap);
+    @include align-content(flex-end);
+}
+
+.case-study-item {
+    max-width: 800px;
+}
+
+.case-study-text {
+    width: 100%;
+}
+*/
