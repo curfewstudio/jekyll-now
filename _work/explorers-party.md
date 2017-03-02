@@ -1,6 +1,6 @@
 ---
 title: Explorers Party
-featured-image: https://d13yacurqjgara.cloudfront.net/users/61757/screenshots/3140578/explorersdribbb_1x.png
+featured-image: "/images/work/explorers-party/explorersdribbb.png"
 featured: true
 ---
 
