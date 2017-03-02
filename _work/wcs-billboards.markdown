@@ -2,10 +2,13 @@
 title: WCS Billboards
 date: 2017-02-19 14:16:00 -05:00
 position: 8
+Field name: 
 ---
 
 In 2016 at the Wildlife Conservation Society my team worked with Morgan Stanley and Bloomberg media to create content for billboards in Times Square. I offered art direction on behalf of WCS.
 
-https://www.youtube.com/watch?v=lXMxYsDYV0s
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/lXMxYsDYV0s?controls=0&modestbranding=1&rel=0&showinfo=0">
+</iframe>
 
 © Morgan Stanley/Wildlife Conservation Society
