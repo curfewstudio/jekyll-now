@@ -9,6 +9,7 @@ input {
 
 .contact-wrapper {
     width: 100%;
+    background-color: $blue;
     
     input[type=text], input[type=email] {
         padding: ms(1, .5em);

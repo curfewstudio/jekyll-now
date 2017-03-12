@@ -1,6 +1,9 @@
 // Custom CSS for the index page
 
-/* Old index code, reuse later if needed
+.index-wrapper {
+    width: 100%;
+}
+
 .case-studies {
     @include flexbox;
     @include flex-direction(row);
@@ -9,13 +12,19 @@
     @include justify-content(center);
     @include flex-flow (row wrap);
     @include align-content(flex-end);
-}
-
-.case-study-item {
-    max-width: 800px;
-}
+    background-color: $blue;
+    padding: $ms-base;
+};
 
 .case-study-text {
-    width: 100%;
+    max-width: 400px;
 }
-*/
+
+.case-study-image {
+    max-width: 600px;
+}
+
+.more-work {
+    width: 100%;
+    text-align: center;
+}

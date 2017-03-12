@@ -10,10 +10,15 @@ $alert: #da4726;
 $rust: #a9492b;
 $cream: #eee7db;
 
+// Shades
+$midnight-dark: darken($midnight, 5%);
+$blue-dark: darken($blue, 10%);
+
 // Neutrals
 
 // Misc
 
 //Styles
-$background-color: $cream;
-$text-color: $midnight;
+$background-color: $midnight;
+$text-color: $cream;
+

@@ -1,6 +1,48 @@
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin button-color($button, $text) {
+    background-color: $button;
+    color: $text;
+    &:hover {
+        background-color: darken($button, 10%);
+    }
+}
+
 // Button styles
 
 // Global Input Button Styles
 input[type=submit]{
     cursor: pointer;
+}
+
+a.btn {
+    @include transition(.2s);
+    line-height: ms(3);
+    padding: $ms-base;
+    @include border-radius(10px);
+    text-decoration: none;
+    &:hover {
+        @include transition(.2s);
+        text-decoration: none;
+    }
+}
+
+// Button Colors
+
+.btn-blue {
+    @include button-color($blue, $moon)
+}
+
+.btn-moon {
+    @include button-color($moon, $midnight)
+}
+
+.btn-mint {
+    @include button-color($mint, $midnight)
 }

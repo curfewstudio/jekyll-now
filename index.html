@@ -3,6 +3,33 @@ layout: default
 ---
 
 <div class="index-wrapper">
+
+  <!-- Case Study Start -->
+  <div class="case-studies dw">
+    {% assign case-study = site.work | where: "featured-case", true %}
+    {% for work in case-study %}
+    <div class="dw-panel case-study -item">
+      <div class="dw-panel__content case-study-image">
+        <a href="{{ work.url }}">
+          <img src="{{ work.featured-image }}">
+        </a>
+      </div>
+    </div>
+    <div class="dw-panel case-study-item">
+      <div class="case-study-text dw-panel__content">
+        <h3>{{work.title}}</h3>
+        <p>
+            {{work.summary}}
+        </p>
+        <a class="btn btn-moon" href="{{ work.url }}">Read More</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- End Case Study -->
+  
+  {% include global/spacer.html space="2em" %}
+  
  <!-- Work Listing Start -->
   <div class="work-listing dw">
     {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
@@ -17,32 +44,14 @@ layout: default
     {% endfor %}
   </div>
   <!-- End Work Listing -->
-  
-  <!-- Case Study Start -->
-  <div class="case-studies">
-    {% assign case-study = site.work | where: "featured-case", true %}
-    {% for work in case-study %}
-    <div class="case-study-item dw">
-      <div class="dw-panel">
-        <a href="{{ work.url }}">
-          <img src="{{ work.featured-image }}">
-        </a>
-      </div>
-      <div class="case-study-text dw-panel">
-        <h3>{{work.title}}</h3>
-        <p>
-          {{work.summary}}
-        </p>
-        <a href="{{ work.url }}">Read More</a>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  <!-- End Case Study -->
 
   <!-- More Work Button -->
-  <a class="btn" href="{{site.basurl}}/work">More work &rarr;</a>
+  <div class="more-work">
+    <a class="btn btn-blue" href="{{site.basurl}}/work">More work &rarr;</a>
+  </div>
   <!-- End More Work Button -->
+  
+  {% include global/spacer.html space="3em" %}
   
   {% include global/contact-form.html %}
 

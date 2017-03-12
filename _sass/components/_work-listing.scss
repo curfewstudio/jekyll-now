@@ -10,10 +10,19 @@
 }
 
 .work-item, case-study-item {
-    padding: ms(1, .2em);
+    padding: $ms-base;
     width: auto;
     img {
-        width: 200px;
+        @include transition(.2s);
+        max-width: 400px;
+        border: solid $blue-dark .5em;
+        border-radius: .25em;
+        box-shadow: 0px 1px 5px $midnight-dark;
+        
+        &:hover {
+            @include transition(.2s);
+            border-color: $blue;
+        }
     }
 }
 
