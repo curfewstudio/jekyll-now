@@ -1,7 +1,6 @@
 ---
 title: Executive Update
 date: 2017-02-08 13:59:00 -05:00
-published: false
 position: 11
 ---
 
