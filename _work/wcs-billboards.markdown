@@ -1,7 +1,7 @@
 ---
 title: WCS Billboards
 date: 2017-02-19 14:16:00 -05:00
-position: 8
+position: 10
 featured: true
 featured-priority: 4
 featured-image: "/images/work/wcs-billboards/billboard-1.jpg"
