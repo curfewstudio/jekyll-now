@@ -28,3 +28,15 @@
     width: 100%;
     text-align: center;
 }
+
+.contact-section {
+    @include flexbox;
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include align-items(center);
+    @include justify-content(center);
+    @include flex-flow (row wrap);
+    @include align-content(flex-end);
+    background-color: $blue;
+    padding: $ms-base;
+};
