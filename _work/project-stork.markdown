@@ -5,7 +5,7 @@ categories:
 - development
 tags:
 - case
-position: 3
+position: 2
 featured-case: true
 featured-image: "/images/work/project-stork/ui-icons.png"
 summary: My team at the Wildlife Conservation Society needed a way to respond to a

@@ -2,7 +2,7 @@
 title: Switch App Modal
 tags:
 - case
-position: 1
+position: 4
 featured: true
 featured-priority: 3
 featured-image: "/images/work/switch-modal/modal-1.png"
