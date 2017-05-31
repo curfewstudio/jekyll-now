@@ -1,5 +1,11 @@
 // Custom CSS for each project
 
+.project-wrapper {
+    width: 100%;
+    background-color: $fog;
+    color: $midnight;
+}
+
 .project-hero { 
     img {
         max-width: 1200px;
@@ -9,4 +15,34 @@
 .project {
     max-width: 1000px;
     width: 90%;
+}
+
+// Project Typography
+
+.project {
+    h1 {
+        font-size: ms(2);
+    }
+    h2 {
+        font-size: ms(1);
+    }
+    h3 {
+        font-size: ms(1, .8em);
+    }
+    h4 {
+        font-size: $ms-base;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+    }
+    h5 {
+        font-size: $ms-base;
+        text-transform: uppercase;
+    }
+    h6 {
+        font-size: $ms-base;
+        font-weight: $font-weight-bold;
+    }
+    p {
+        font-family: $merriweather;
+    }
 }

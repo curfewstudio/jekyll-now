@@ -4,7 +4,7 @@ permalink: about.html
 layout: default
 ---
 
-#About Curfew Studio
+# About Curfew Studio
 
 We are dedicated to creating thoughtful and collaborative design solutions for good people and good causes. We specialize in visual design, front-end web development, and illustration.
 

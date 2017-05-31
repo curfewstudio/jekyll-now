@@ -21,9 +21,8 @@ input[type=submit]{
     cursor: pointer;
 }
 
-a.btn {
+.btn {
     @include transition(.2s);
-    line-height: ms(3);
     padding: $ms-base;
     @include border-radius(10px);
     text-decoration: none;
@@ -31,6 +30,10 @@ a.btn {
         @include transition(.2s);
         text-decoration: none;
     }
+}
+
+a.btn {
+    line-height: ms(3);
 }
 
 // Button Colors

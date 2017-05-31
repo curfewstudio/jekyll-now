@@ -6,7 +6,17 @@ featured-image: "/images/work/explorers-party/explorersdribbb.png"
 featured: true
 ---
 
-# Sample Case Study
+# Header 1
+
+## Header 2
+
+### H3
+
+#### H4
+
+##### H5
+
+###### H6
 
 Background/Brief: The Explorers' party is a family fundraiser for the Wildlife Conservation Society. The theme for 2016 was "Wild About Oceans" which was manifested through education activities at the event and messaging around marine conservation. The event and its communications needed to appeal to kids and parents alike.
 
