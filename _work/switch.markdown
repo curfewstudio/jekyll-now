@@ -6,7 +6,7 @@ position: 4
 featured: true
 featured-priority: 3
 featured-image: "/images/work/switch-modal/modal-1.png"
-summary: 
+summary: Here is a summary about this project
 ---
 
 I was contracted by Switch—a job search app—to design an in-app modal screen which would drive users to interact with employers they have matched with. Both full-size concepts are attached.

@@ -18,10 +18,12 @@
 
 .case-study-text {
     max-width: 400px;
+    padding-left: 1em;
 }
 
 .case-study-image {
     max-width: 600px;
+    @include work-item-active ($fog, $blue-dark, $fog-dark);
 }
 
 .more-work {

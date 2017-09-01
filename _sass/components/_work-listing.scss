@@ -15,14 +15,63 @@
     img {
         @include transition(.2s);
         max-width: 400px;
-        border: solid $blue-dark .5em;
-        border-radius: .25em;
-        box-shadow: 0px 1px 5px $midnight-dark;
-        
-        &:hover {
+        @include work-item-active ($blue-dark, $midnight-dark, $blue);
+        }
+}
+
+.work-description{
+    display:none;
+}
+
+.work-item:hover {
+    img {
+        @include transition(.2s);
+        opacity: 0.2;
+    }
+    .work-description{
+        @include transition(.2s);
+        display: block;
+        max-width: 380px;
+        position: absolute;
+        margin: 1em;
+        opacity: 1;
+        z-index: 20;
+        color: $moon;
+        h3 {
             @include transition(.2s);
-            border-color: $blue;
+            font-size: ms(2, .8em);
+        }
+        p {
+            @include transition(.2s);
+            color: $cream;
         }
     }
 }
 
+.work-item{
+    img, .work-description h3, .work-description p{
+    @include transition(1s);
+    }
+}
+
+.category {
+    font-size:  ms(1, .4em);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: .2em .7em;
+    background-color: $fog;
+    @include border-radius(.5em);
+    color: $blue;
+    font-weight: $font-weight-bold;
+    text-align: center;
+    width: auto;
+    display:inline-block;
+    margin: -.5em;
+    position: absolute;
+}
+
+.case-study-image:hover .category{
+    @include transition(.2s);
+    background: $fog-dark;
+    color: $midnight;
+}

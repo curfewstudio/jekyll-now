@@ -26,6 +26,7 @@ input[type=submit]{
     padding: $ms-base;
     @include border-radius(10px);
     text-decoration: none;
+    font-weight: $font-weight-bold;
     &:hover {
         @include transition(.2s);
         text-decoration: none;

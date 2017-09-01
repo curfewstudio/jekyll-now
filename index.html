@@ -11,6 +11,7 @@ layout: default
     <div class="dw-panel case-study -item">
       <div class="dw-panel__content case-study-image">
         <a href="{{ work.url }}">
+          {% include global/category.html %}
           <img src="{{ work.featured-image }}">
         </a>
       </div>
@@ -21,7 +22,7 @@ layout: default
         <p>
             {{work.summary}}
         </p>
-        <a class="btn btn-moon" href="{{ work.url }}">Read More</a>
+        <a class="btn btn-moon" href="{{ work.url }}">Read More &rarr;</a>
       </div>
     </div>
     {% endfor %}
@@ -37,6 +38,10 @@ layout: default
      <div class="work-item dw-panel">
        <div class="work-item-content dw-panel__content">
         <a href="{{ work.url }}">
+          <div class="work-description">
+            <h3>{{work.title}}</h3>
+            <p>{{work.summary}}</p>
+          </div>
           <img src="{{ work.featured-image }}">
         </a>
        </div>
@@ -57,5 +62,7 @@ layout: default
   {% include global/contact-form.html %}
   </div>
   
+  {% include global/footer.html %}
+ 
 </div>
  

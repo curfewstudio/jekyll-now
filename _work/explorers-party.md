@@ -4,6 +4,7 @@ position: 6
 featured-priority: 2
 featured-image: "/images/work/explorers-party/explorersdribbb.png"
 featured: true
+summary: Here is a summary about this project
 ---
 
 # Header 1

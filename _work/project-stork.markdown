@@ -3,6 +3,7 @@ title: Project Stork
 categories:
 - design
 - development
+category: featured
 tags:
 - case
 position: 2

@@ -5,6 +5,7 @@ position: 10
 featured: true
 featured-priority: 4
 featured-image: "/images/work/wcs-billboards/billboard-1.jpg"
+summary: Here is a summary about this project
 ---
 
 In 2016 at the Wildlife Conservation Society my team worked with Morgan Stanley and Bloomberg media to create content for billboards in Times Square. I offered art direction on behalf of WCS.
