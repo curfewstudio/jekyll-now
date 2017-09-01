@@ -4,7 +4,8 @@ position: 6
 featured-priority: 2
 featured-image: "/images/work/explorers-party/explorersdribbb.png"
 featured: true
-summary: Here is a summary about this project
+summary: 'Design and illustration for the Explorers'' Party: A family fundraiser by
+  WCS'
 ---
 
 # Header 1
