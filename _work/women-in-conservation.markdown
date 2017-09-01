@@ -1,5 +1,10 @@
 ---
 title: Women In Conservation
+categories:
+- design
+- print design
+tags:
+- case
 position: 9
 featured-image: "/images/work/women-in-conservation/slotw-dribbble.png"
 featured: false
