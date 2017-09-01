@@ -1,11 +1,18 @@
-<ul class="nav">
-    <li>
-        <a href="{{ site.baseurl }}/">home</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/work">Work</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/docs/about.html">About</a>
-    </li>
-</ul>
+
+<div class="nav-wrapper">
+   <a href="{{ site.baseurl }}/index">
+       <div class="nav-logo">
+        {% include svg/curfew-logotype.svg %}
+       </div>
+    </a>
+    <p class="tagline">The design practice of Drew Albinson</p>
+    <ul class="nav">
+
+        <li class="nav-item">
+            <a href="{{ site.baseurl }}/work">Work</a>
+        </li>
+        <li class="nav-item">
+            <a href="{{ site.baseurl }}/about.html">About</a>
+        </li>
+    </ul> 
+</div>  

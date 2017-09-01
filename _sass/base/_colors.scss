@@ -1,0 +1,25 @@
+// Curfew brand colors
+$midnight: #034a55;
+$fog: #a3cbcc;
+$moon: #fece08;
+$sunset: #f6881f;
+$leaf: #249973;
+$mint: #48bfaf;
+$blue: #3B8C99;
+$alert: #da4726;
+$rust: #a9492b;
+$cream: #eee7db;
+
+// Shades
+$midnight-dark: darken($midnight, 5%);
+$blue-dark: darken($blue, 10%);
+$fog-dark: darken($fog, 10%);
+
+// Neutrals
+
+// Misc
+
+//Styles
+$background-color: $midnight;
+$text-color: $cream;
+
