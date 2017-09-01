@@ -1,6 +1,18 @@
 ---
 title: Legacy Memento
+categories:
+- design
+- printmaking
+- illustration
+tags:
+- case
 position: 8
+featured-image: "/uploads/memento-2.jpg"
+summary: I created unique watercolor monoprints to honor WCS donors who left the organization
+  in their will.
+featured: true
+feature-priority: 7
+priority: 8
 ---
 
 # Sample Case Study
