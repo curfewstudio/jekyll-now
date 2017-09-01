@@ -6,13 +6,14 @@ categories:
 - featured
 tags:
 - case
-position: 2
+position: 1
 featured-case: true
 featured-image: "/images/work/project-stork/ui-icons.png"
 summary: My team at the Wildlife Conservation Society needed a way to respond to a
   growing demand for more emails without sacrificing on design and quality. I developed
   a tool which would allow non-technical users to create and edit emails with bulletproof
   code.
+Key: 
 ---
 
 My team at the Wildlife Conservation Society needed a way to respond to a growing demand for more emails without sacrificing on design and quality. I developed a tool which would allow non-technical users to create and edit emails with bulletproof code. 
