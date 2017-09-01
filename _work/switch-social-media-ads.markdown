@@ -1,8 +1,16 @@
 ---
 title: Switch Social Media Ads
 date: 2017-02-07 13:20:00 -05:00
-position: 7
+categories:
+- illustration
+- design
+- social media
+tags:
+- case
+position: 5
 featured-image: "/images/work/switch-ads/design-job.png"
+featured: false
+summary: I created a series of social media ads for Switch
 ---
 
 I was contracted by Switch—a job search app—to create a series of illustrations for social media advertisements. 
