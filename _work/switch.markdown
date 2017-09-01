@@ -1,12 +1,17 @@
 ---
 title: Switch App Modal
+categories:
+- design
+- ux
+- product design
 tags:
 - case
+- featured
 position: 4
 featured: true
 featured-priority: 3
 featured-image: "/images/work/switch-modal/modal-1.png"
-summary: Here is a summary about this project
+summary: I created an in-app modal to help engage with users of the Switch app.
 ---
 
 I was contracted by Switch—a job search app—to design an in-app modal screen which would drive users to interact with employers they have matched with. Both full-size concepts are attached.
