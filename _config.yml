@@ -5,9 +5,6 @@ collections:
   docs:
     title: Docs
     output: true
-  loosies:
-    title: Loosies
-    output: true
   posts:
     title: Posts
     output: true
@@ -18,11 +15,6 @@ collections:
     title: Work
     output: true
 defaults:
-- scope:
-    path: ''
-    type: loosies
-  values:
-    layout: project
 - scope:
     path: ''
     type: work

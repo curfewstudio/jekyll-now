@@ -14,7 +14,6 @@
     width: auto;
     img {
         @include transition(.2s);
-        max-width: 400px;
         @include work-item-active ($blue-dark, $midnight-dark, $blue);
         }
 }
@@ -31,7 +30,8 @@
     .work-description{
         @include transition(.2s);
         display: block;
-        max-width: 380px;
+        max-width: 80%;
+        y-overflow: hidden;
         position: absolute;
         margin: 1em;
         opacity: 1;
@@ -48,9 +48,21 @@
     }
 }
 
+@media only screen and (min-width: 1000px){
+    .work-item:hover .work-description{
+        h3 {
+            font-size: ms(2, .5em);
+        }
+        p {
+            font-size: ms(1, .5em);
+        }
+    }
+}
+
 .work-item{
+    @include transition(.5s);
     img, .work-description h3, .work-description p{
-    @include transition(1s);
+    @include transition(.5s);
     }
 }
 

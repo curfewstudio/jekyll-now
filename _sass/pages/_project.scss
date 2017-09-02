@@ -1,20 +1,23 @@
 // Custom CSS for each project
 
 .project-wrapper {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     background-color: $fog;
     color: $midnight;
 }
 
 .project-hero { 
     img {
-        max-width: 1200px;
+        max-width: 100%;
         height: auto;
     }
 }
 .project {
-    max-width: 1000px;
-    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: $ms-base;
+    width: 800px;
 }
 
 // Project Typography
@@ -44,5 +47,8 @@
     }
     p {
         font-family: $merriweather;
+    }
+    img {
+        padding: $ms-base 0;
     }
 }

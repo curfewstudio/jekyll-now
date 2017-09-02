@@ -2,17 +2,23 @@
 layout: default
 ---
 
+<div class="work-page dw">
 <!-- Work Listing Start -->
-<div class="work-listing dw">
-    {% assign list-work = site.work | sort: 'date' %}
-    {% for work in list-work %}
-    <div class="work-item dw-panel">
-        <div class="work-item-content dw-panel__content">
-            <a href="{{ work.url }}">
-                <img src="{{ work.featured-image }}">
-            </a>
-        </div>
+  <div class="work-listing dw">
+    {% assign list-work = site.work | sort: 'priority' %}
+    {% for work in list-work%}
+     <div class="work-item dw-panel">
+       <div class="work-item-content dw-panel__content">
+        <a href="{{ work.url }}">
+          <div class="work-description">
+            <h3>{{work.title}}</h3>
+            <p>{{work.summary}}</p>
+          </div>
+          <img src="{{ work.featured-image }}">
+        </a>
+       </div>
     </div>
     {% endfor %}
+  </div>
+  <!-- End Work Listing -->
 </div>
-<!-- End Work Listing -->

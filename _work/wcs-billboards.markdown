@@ -19,8 +19,10 @@ priority: 5
 
 In 2016 at the Wildlife Conservation Society my team worked with Morgan Stanley and Bloomberg media to create content for billboards in Times Square. I offered art direction on behalf of WCS.
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/lXMxYsDYV0s?controls=0&modestbranding=1&rel=0&showinfo=0">
-</iframe>
+<div class="video-wrapper">
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/lXMxYsDYV0s?controls=0&modestbranding=1&rel=0&showinfo=0">
+    </iframe>
+</div>
 
 © Morgan Stanley/Wildlife Conservation Society
