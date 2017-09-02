@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<div class="home">
-
-    <!-- Work Listing Start -->
-    <div class="work-listing">
-        {% assign list-work = site.work | sort: 'featured-priority' %}
-        {% for work in list-work %}
-        <div class="featured-work-item">
+<!-- Work Listing Start -->
+<div class="work-listing dw">
+    {% assign list-work = site.work | sort: 'date' %}
+    {% for work in list-work %}
+    <div class="work-item dw-panel">
+        <div class="work-item-content dw-panel__content">
             <a href="{{ work.url }}">
                 <img src="{{ work.featured-image }}">
             </a>
         </div>
-        {% endfor %}
     </div>
-    <!-- End Work Listing -->
-
+    {% endfor %}
 </div>
+<!-- End Work Listing -->

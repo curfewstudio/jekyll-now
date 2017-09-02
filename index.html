@@ -2,45 +2,67 @@
 layout: default
 ---
 
-<div class="home">
- <!-- Work Listing Start -->
-  <div class="work-listing">
-    {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
-    {% for work in featured-work %}
-     <div class="work-item">
-      <a href="{{ work.url }}">
-        <img src="{{ work.featured-image }}">
-      </a>
-    </div>
-    {% endfor %}
-  </div>
-  <!-- End Work Listing -->
-  
+<div class="index-wrapper">
+
   <!-- Case Study Start -->
-  <div class="case-studies">
+  <div class="case-studies dw">
     {% assign case-study = site.work | where: "featured-case", true %}
     {% for work in case-study %}
-    <div class="case-study-item">
-      <a href="{{ work.url }}">
-        <img src="{{ work.featured-image }}">
-      </a>
-      <div>
+    <div class="dw-panel case-study -item">
+      <div class="dw-panel__content case-study-image">
+        <a href="{{ work.url }}">
+          {% include global/category.html %}
+          <img src="{{ work.featured-image }}">
+        </a>
+      </div>
+    </div>
+    <div class="dw-panel case-study-item">
+      <div class="case-study-text dw-panel__content">
         <h3>{{work.title}}</h3>
         <p>
-          {{work.case-summary}}
+            {{work.summary}}
         </p>
-        <a href="{{ work.url }}">Read More</a>
+        <a class="btn btn-moon" href="{{ work.url }}">Read More &rarr;</a>
       </div>
     </div>
     {% endfor %}
   </div>
   <!-- End Case Study -->
+  
+  {% include global/spacer.html space="2em" %}
+  
+ <!-- Work Listing Start -->
+  <div class="work-listing dw">
+    {% assign featured-work = site.work | where: "featured", true | sort: 'featured-priority' %}
+    {% for work in featured-work %}
+     <div class="work-item dw-panel">
+       <div class="work-item-content dw-panel__content">
+        <a href="{{ work.url }}">
+          <div class="work-description">
+            <h3>{{work.title}}</h3>
+            <p>{{work.summary}}</p>
+          </div>
+          <img src="{{ work.featured-image }}">
+        </a>
+       </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- End Work Listing -->
 
   <!-- More Work Button -->
-  <a class="btn" href="{{site.basurl}}/work">More work &rarr;</a>
+  <div class="more-work">
+    <a class="btn btn-blue" href="{{site.basurl}}/work">More work &rarr;</a>
+  </div>
   <!-- End More Work Button -->
   
+  {% include global/spacer.html space="3em" %}
+  
+  <div class="contact-section">
   {% include global/contact-form.html %}
-
+  </div>
+  
+  {% include global/footer.html %}
+ 
 </div>
  

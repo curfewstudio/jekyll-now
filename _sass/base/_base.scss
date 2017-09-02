@@ -12,20 +12,24 @@ dl, dd, ol, ul, figure {
 body {
     background-color: $background-color;
     font-family: $base-font-family;
+    color: $text-color;
+    font-size: $ms-base;
+    font-weight: $font-weight-regular;
+    line-height: ms(1, 1em);
 }
+
+//p {
+//    font-family: $base-font-family;
+//    color: $text-color;
+//}
 
 // Links
 
 a {
-    color: $blue;
+    color: $mint;
     text-decoration: none;
 
-    &:visited {
-        color: darken($blue, 15%);
-    }
-
     &:hover {
-        color: $midnight;
         text-decoration: underline;
     }
 }
@@ -37,6 +41,11 @@ blockquote {
     font-style: italic;
 }
 
+
+// Spacer
+.spacer {
+    width: 100%;
+}
 
 
 // Code formatting

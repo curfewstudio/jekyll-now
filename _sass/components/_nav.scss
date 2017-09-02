@@ -1,10 +1,11 @@
 .nav-wrapper {
+    background-color: $cream;
 }
 
 .nav-logo {
     max-width: 80%;
     padding-top: ms(2);
-    width: ms(2, 10em);
+    width: ms(2, 6em);
     margin: 0 auto;
 }
 
@@ -29,4 +30,12 @@
             text-decoration: none;
         }
     }
+}
+
+.tagline {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: ms(1, 0.5em);
+    color: $blue;
 }
