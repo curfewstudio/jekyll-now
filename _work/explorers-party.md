@@ -8,19 +8,7 @@ summary: 'Design and illustration for the Explorers'' Party: A family fundraiser
   WCS'
 ---
 
-# Header 1
-
-## Header 2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-Background/Brief: The Explorers' party is a family fundraiser for the Wildlife Conservation Society. The theme for 2016 was "Wild About Oceans" which was manifested through education activities at the event and messaging around marine conservation. The event and its communications needed to appeal to kids and parents alike.
+The Explorers' party is a family fundraiser for the Wildlife Conservation Society. The theme for 2016 was "Wild About Oceans" which was manifested through education activities at the event and messaging around marine conservation. The event and its communications needed to appeal to kids and parents alike.
 
 ![image](http://placehold.it/800x300)  
 Unique and fun illustrations were created to fit the theme and were used on web and print materials.
