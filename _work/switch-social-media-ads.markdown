@@ -13,9 +13,11 @@ featured: false
 summary: I created a series of social media ads for Switch
 ---
 
-I was contracted by Switch—a job search app—to create a series of illustrations for social media advertisements. 
+Switch, a job-search app, contracted me to illustrate and
+design a series of social media ads with a focus on drawing in new users and spreading awareness about the company. Copy was
+provided and I worked with the team to develop each concept and design the final ads.
 
-#### Three illustration for an Instagram carousel ad targeting Product Managers. 
+#### An ad series using Instagram’s (new at the time) carousel ads. This ad targeted project managers.
 
 ![image]({{ site.baseurl }}/images/work/switch-ads/opportunistic-ad.png)  
 
@@ -30,7 +32,7 @@ I was contracted by Switch—a job search app—to create a series of illustrati
 
 ![image]({{ site.baseurl }}/images/work/switch-ads/visionary-sketch.png)
 
-#### An ad targeting UX Designers for use across Facebook, Twitter, and Instagram.
+#### Another ad targeted UX designers. It was promoted across Instagram, Facebook, and Twitter.
 
 ![image]({{ site.baseurl }}/images/work/switch-ads/design-job.png)
 
