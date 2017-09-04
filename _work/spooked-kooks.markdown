@@ -23,14 +23,23 @@ The Shaka logo mark
 The full title treatment including the tagline _"Killer Surfboards"_
 
 ![Shop-Sign.jpg](/uploads/Shop-Sign.jpg)
+Mockup using the logo type for a shop sign
 
 ![Folded-Sweatshirt-Mockup.jpg](/uploads/Folded-Sweatshirt-Mockup.jpg)
+Mockup of merchandise using the new logo
 
 ![logo-guide-4.jpg](/uploads/logo-guide-4.jpg)
+Along with the logo I created basic brand guidelines
+
+### Included below are a few early concepts for the logo
 
 ![concept-3.jpg](/uploads/concept-3.jpg)
+Early concept based on the wolf-man theme
 
 ![concept-4.jpg](/uploads/concept-4.jpg)
+Another concept using the Kookaburra to emphasize the _Kooks_ in _Spooked Kooks_
 
 ![2nd-drafts-05.jpg](/uploads/2nd-drafts-05.jpg)
+An early wolf-man shaka design
 
+_You can find the_ Spooked Kooks _mark in use at [SpookedKooks.com](http://www.spookedkooks.com/)_
