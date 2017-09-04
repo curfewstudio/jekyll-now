@@ -42,4 +42,4 @@ Another concept using the Kookaburra to emphasize the _Kooks_ in _Spooked Kooks_
 ![2nd-drafts-05.jpg](/uploads/2nd-drafts-05.jpg)
 An early wolf-man shaka design
 
-_You can find the_ Spooked Kooks _mark in use at [SpookedKooks.com](http://www.spookedkooks.com/)_
+_You can find the_ Spooked Kooks _logo in use at [SpookedKooks.com](http://www.spookedkooks.com/) and [on Instagram here](https://www.instagram.com/spookedkooks/)_
