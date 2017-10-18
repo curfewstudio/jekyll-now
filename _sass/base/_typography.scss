@@ -10,6 +10,7 @@
 
 // Font Variables
 $montserrat: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+
 $merriweather: 'Merriweather',Georgia,Times,Times New Roman,serif;
 
 // Font Weights
@@ -53,4 +54,32 @@ h5 {
 h6 {
     font-size: $ms-base;
     font-weight: $font-weight-bold;
+}
+
+//Text Effects
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.image-wrapper{
+	margin-bottom: $ms-base;
+
+	.img{
+		padding-bottom: 0;
+		margin: 0;
+	}
+}
+
+.caption, div.caption>p {
+	font-size: ms(1, .6em);
+	line-height: ms(1, 1em);
+	font-family: $montserrat;
+	font-weight: $font-weight-bold;
+	background-color: $fog-dark;
+	padding: ms(1, .2em);
+	margin: 0;
 }
